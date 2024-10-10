@@ -1,0 +1,402 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:20px;
+    opacity:0.8;
+    margin-bottom: 0px;
+    width:99%;
+   z-index:100;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+   
+    font-weight: bolder;
+    color:rgb(14, 197, 197);
+}
+header a:hover{
+    color:blue;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    right:20px;
+}
+
+ul li{
+    margin-left: 30px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+}
+
+ul li a:hover{
+    color:rgb(192, 5, 5);
+   
+    text-shadow: 2px 2px aqua;
+}
+
+.intro-sec{
+    position:relative;
+    top:90px;
+}
+.intro-sec img{
+    position: relative;
+    left:65%;
+    bottom:90px;
+    border-radius: 20px;
+}
+.intro-sec h1{
+position: relative;
+top:150px;
+left:130px;
+font-size: 40px;
+}
+
+.intro-sec h1 span{
+ color:deeppink;
+}
+.intro-sec p{
+    position: relative;
+    top:200px; 
+    left:130px;
+    font-size: 20px;
+    color: rgb(132, 127, 127);
+    width:1000px;
+}
+
+.intro-sec button{
+    position: relative;
+    bottom:200px;
+    padding:15px;
+    width:180px;
+    left:130px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(220, 246, 246);
+    box-shadow: 5px 7px 5px rgb(187, 186, 186);
+}
+
+.About-sec h1, p{
+position:relative;
+left:500px;
+bottom:300px;
+width:900px;
+}
+.About-sec img{
+    position: relative;
+    top:60px;
+    left:50px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+.About-sec h1{
+    position: relative;
+    bottom:360px;
+    font-size: 35px;
+}
+
+.About-sec h1 span{
+    color:rgb(6, 173, 173);
+}
+
+.About-sec p{
+    font-size: 20px;
+    color: rgb(151, 147, 147);
+}
+.About-sec p span{
+    color:rgb(67, 64, 64)
+}
+
+.skill-sec{
+    position: relative;
+    bottom:70px;
+    width:auto;
+   
+}
+.skill-sec h1{
+  position: relative;
+  bottom:20px;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+ .skill{
+    height: 80px;
+    width:800px;
+    background-color: rgb(246, 243, 243);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(194, 192, 192);
+    position: relative;
+    left:25%;
+    margin-top: 10px;
+ }
+
+ .skill h4{
+    margin-top: 40px;
+    color:grey;
+    font-size: 18px;
+    position: relative;
+    
+
+ }
+.skill h2{
+    color:rgb(231, 136, 152);
+}
+
+
+.project-sec .head{
+    text-align: center;
+    font-size: 35px;
+}
+
+.p1{
+    height:150px;
+    width:50%;
+    background-color:rgba(128, 128, 128, 0.227);
+    padding:20px;
+    border-radius: 15px 15px;
+    box-shadow: 8px 8px 8px rgb(211, 209, 209);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.p1 h1{
+    color:deeppink;
+}
+.p1 h2,h4,a{
+    margin-top: 10px;
+}
+.p1 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p1 a{
+    text-decoration: none;
+}
+
+.p2{
+    height:150px;
+    width:50%;
+    background-color:rgba(128, 128, 128, 0.227);
+    padding:20px;
+    border-radius: 15px 15px;
+    box-shadow: 8px 8px 8px rgb(211, 209, 209);
+    margin-top: 40px;
+    position:relative;
+    left:45%;
+}
+.p2 h1{
+    color:deeppink;
+}
+.p2 h2,h4,a{
+    margin-top: 10px;
+}
+.p2 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p2 a{
+    text-decoration: none;
+}
+
+.p3{
+    height:160px;
+    width:50%;
+    background-color:rgba(128, 128, 128, 0.227);
+    padding:20px;
+    border-radius: 15px 15px;
+    box-shadow: 8px 8px 8px rgb(211, 209, 209);
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.p3 h1{
+    color:deeppink;
+}
+.p3 h2,h4,a{
+    margin-top: 10px;
+}
+.p3 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p3 a{
+    text-decoration: none;
+}
+
+.p4{
+    height:150px;
+    width:50%;
+    background-color:rgba(128, 128, 128, 0.227);
+    padding:20px;
+    border-radius: 15px 15px;
+    box-shadow: 8px 8px 8px rgb(211, 209, 209);
+    margin-top: 40px;
+    position:relative;
+    left:45%;
+}
+.p4 h1{
+    color:deeppink;
+}
+.p4 h2,h4,a{
+    margin-top: 10px;
+}
+.p4 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p4 a{
+    text-decoration: none;
+}
+
+.contact-sec{
+    text-align: center;
+    height: auto;
+    width:1000px;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top:100px;
+    left:15%;
+    box-shadow: 10px 15px 10px rgb(232, 229, 229);
+}
+.contact-sec h1{
+    font-size: 35px;
+}
+input{
+ width:50%;
+ padding:15px;
+ border-radius: 5px;
+ font-size: 17px;
+ margin-top: 25px;
+ border: none;
+}
+
+
+textarea{
+    width:52%;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: none;
+}
+form button{
+    width:52%;
+    padding:10px;
+    border-radius:5px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(188, 181, 181);
+}
+
+footer{
+    position:relative;
+    top:200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.399);
+    padding:20px;
+}
+
+footer img{
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px rgb(193, 193, 193);
+}
+
+footer h3{
+    margin-top: 20px;
+}
+
+.education-sec{
+    padding: 20px;
+    
+    margin-top: 10%;
+}
+.education-sec h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  
+}
+.education-sec .e1,
+.education-sec .e2,
+.education-sec .e3{
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+.education-sec .e1 h2,
+.education-sec .e2 h2,
+.education-sec .e3 h2{
+    color:blue;
+    
+}
+
+.education-sec div span{
+    color:deeppink;
+}
+.education-sec .e1 h4,
+.education-sec .e2 h4,
+.education-sec .e3 h4{
+    color:gray;
+    font-size: 20px;
+}
+
+.exp-sec{
+    position: relative;
+    top:70px;
+    
+    padding: 50px;
+}
+.exp-sec h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.exp-sec .ex1{
+    margin-top: 40px;
+    padding:10px;
+    margin-left: 20%;
+}
+
+.ex1 h2{
+    color:rgb(0, 151, 154);
+}
+.ex1 h4{
+    color:grey;
+    font-size: 18px;
+}
+
+.ex1 h3{
+    color:rgb(6, 194, 197);
+}
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
